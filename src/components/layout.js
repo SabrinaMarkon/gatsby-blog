@@ -49,14 +49,13 @@ const Layout = ({ children }) => {
             }}
           >
             <main className="p-4">{children}</main>
-            <footer className="text-center">
-              <hr/>
-              <p className="d-inline">© {new Date().getFullYear()} <a className="text-info" href="https://willjw3.github.io/">willjw3</a>, All Rights Reserved.</p>
-              <p className="mt-5 text-muted d-inline"><i> Built with
-                            {` `}
-                <a className="text-info" href="https://www.gatsbyjs.org">Gatsby</a></i>
-              </p>
+            <footer className="text-center madewithlove">
+            <hr/> 
+            <p>Made with <span className="madewithlove__heart" aria-hidden="true">❤</span> by <a href="http://sabrinamarkon.com" 
+            target="_blank" rel="noopener noreferrer" className="text-info madewithlove__name">Sabrina Markon</a><br />
+            Built with <a className="text-info" href="https://www.gatsbyjs.org">Gatsby!</a></p>
             </footer>
+
           </div>
         </>
       )}

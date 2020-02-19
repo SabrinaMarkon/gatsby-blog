@@ -11,7 +11,7 @@ import "./sidebar.css"
 
 const SocialLinks = ({ contacts }) => {
     return (
-        <div className="side-social-links float-left mt-3 mb-3">
+        <div className="side-social-links mt-3 mb-3">
             <a className="text-secondary p-2"
                 href={contacts.linkedin}>
                 <span title="Linked In">

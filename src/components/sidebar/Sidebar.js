@@ -50,7 +50,7 @@ const Sidebar = () => {
             `}
             render={data => (
                 <>
-                    <div className="sidebar-main border-right">
+                    <div className="sidebar-centered border-right">
                         <Bio author={data.site.siteMetadata.author} tagline={data.site.siteMetadata.tagline} />
                         <SocialLinks contacts={data.site.siteMetadata.contacts} />
                         <div className="page-links">

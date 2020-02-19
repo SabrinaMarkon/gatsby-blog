@@ -14,9 +14,6 @@ const Header = ({ siteTitle, tagline, author, contacts }) => {
   return (
     <header
       className="head-main"
-      style={{
-        background: `black`
-      }}
     >
       <div className="head-elements"
         style={{
