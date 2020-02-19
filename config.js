@@ -2,19 +2,19 @@
 
 module.exports = {
   url: "https://developer-diary.netlify.com",
-  title: "Developer Diary",
-  tagline: "Autodidact developer and sometimes hoop-jumper",
-  copyright: "© 2019 willjw3, All rights reserved",
+  title: "Sabrina Markon",
+  tagline: "I love coding and want to share my journey with you!",
+  copyright: "© 2020 Sabrina Markon, All rights reserved",
   author: {
-    name: "WILL JAY",
-    bio: "Self-taught web developer and whisky aficionado",
+    name: "Sabrina Markon",
+    bio: "Full stack web developer",
     contacts: {
-      linkedin: "https://www.linkedin.com/in/will-ward-65234a170/",
-      github: "https://github.com/willjw3",
+      linkedin: "https://www.linkedin.com/in/sabrinamarkon",
+      github: "https://github.com/SabrinaMarkon",
       stackoverflow:
-        "https://stackoverflow.com/users/10262432/will-ward?tab=profile",
-      freecodecamp: "https://www.freecodecamp.org/willjw3",
-      twitter: "https://twitter.com/willjw3",
+        "https://stackoverflow.com/users/4423648/sabrina-markon?tab=profile",
+      freecodecamp: "https://www.freecodecamp.org/SabrinaMarkon",
+      twitter: "https://twitter.com/Sabrina_Markon",
     },
   },
   labels: [

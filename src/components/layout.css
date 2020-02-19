@@ -199,7 +199,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  /* color: hsla(0, 0%, 0%, 0.8); */
+  color: #393939;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -590,7 +591,8 @@ td:last-child {
 }
 tt,
 code {
-  background-color: hsla(0, 0%, 0%, 0.04);
+  /* background-color: hsla(0, 0%, 0%, 0.04); */
+  background-color: #393939;
   border-radius: 3px;
   font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
     "Liberation Mono", Menlo, Courier, monospace;
