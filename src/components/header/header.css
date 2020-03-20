@@ -1,5 +1,5 @@
 .head-main {
-  background: #fff;
+  background: #F8F8FF;
   width: 100%;
   position: sticky;
   z-index: 1;
@@ -24,7 +24,7 @@
 
 .bottom-bar {
   width: 100%;
-  background: black;
+  background: #393939;
   display: none;
   flex-direction: row;
   justify-content: center;
@@ -48,20 +48,28 @@ small {
 }
 
 .mobile-bio-main {
-  background: white;
+  background: #F8F8FF;
   display: none;
   font-size: 2rem;
+  padding: 1rem;
 }
 
 @media only screen and (max-width: 850px) {
+  header {
+    border-bottom: 3px solid #fa8dc3;
+  }
   .bottom-bar{display: flex;}
   .social-links{display: none;}
-  .mobile-pages-main{display: block;}
-  .mobile-bio-main{
+  .mobile-pages-main{
+    display: flex;
+    justify-content: space-around;
+    background: #fa8dc3;
+  }
+  /* .mobile-bio-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     margin: auto;
-  }
+  } */
 }

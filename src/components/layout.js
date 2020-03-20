@@ -41,21 +41,8 @@ const Layout = ({ children }) => {
             tagline={data.site.siteMetadata.tagline}
             author={data.site.siteMetadata.author}
             contacts={data.site.siteMetadata.contacts} />
-          <div
-            style={{
-              margin: `0 auto`,
-              padding: `0px 1.0875rem 1.45rem`,
-              paddingTop: 0,
-            }}
-          >
-            <main className="p-4">{children}</main>
-            <footer className="text-center madewithlove">
-            <hr/> 
-            <p>Made with <span className="madewithlove__heart" aria-hidden="true">❤</span> by <a href="http://sabrinamarkon.com" 
-            target="_blank" rel="noopener noreferrer" className="text-info madewithlove__name">Sabrina Markon</a><br />
-            Built with <a className="text-info" href="https://www.gatsbyjs.org">Gatsby!</a></p>
-            </footer>
-
+          <div>
+            <main>{children}</main>
           </div>
         </>
       )}
