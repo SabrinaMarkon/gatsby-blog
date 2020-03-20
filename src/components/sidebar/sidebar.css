@@ -41,20 +41,3 @@ p {
 .author-bio {
   font-size: 3vw;
 }
-
-.madewithlove {
-  margin-top: 1rem;
-}
-.madewithlove a {
-  color: #fa8dc3;
-  text-decoration: none;
-}
-.madewithlove a:hover {
-  color: #ff006a;
-}
-.madewithlove__heart {
-  color: #fa8dc3;
-}
-.madewithlove__heart:hover {
-  color: #ff006a;
-}
