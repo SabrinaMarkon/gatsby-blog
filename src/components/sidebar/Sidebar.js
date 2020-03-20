@@ -6,7 +6,7 @@ import "./sidebar.css";
 import SocialLinks from "./SocialLinks";
 import TechTags from "./TechTags";
 
-import Footer from "../footer/Footer";
+import SidebarFooter from "./SidebarFooter";
 
 const Sidebar = () => {
   return (
@@ -74,7 +74,7 @@ const Sidebar = () => {
                 posts={data.allMarkdownRemark.edges}
               />
             </div>
-            <Footer />
+            <SidebarFooter />
           </div>
         </>
       )}
