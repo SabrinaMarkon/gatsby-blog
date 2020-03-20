@@ -12,7 +12,7 @@ module.exports = {
       linkedin: "https://www.linkedin.com/in/sabrinamarkon",
       github: "https://github.com/SabrinaMarkon",
       stackoverflow:
-        "https://stackoverflow.com/users/4423648/sabrina-markon?tab=profile",
+        "https://stackoverflow.com/story/sabrinamarkon",
       freecodecamp: "https://www.freecodecamp.org/SabrinaMarkon",
       twitter: "https://twitter.com/Sabrina_Markon",
     },
