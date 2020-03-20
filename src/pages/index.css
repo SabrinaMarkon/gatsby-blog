@@ -4,12 +4,13 @@ p, .title {
 
 .index-main {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    grid-template-columns: 300px 1fr;
 } 
 
 .sidebar {
     width: 300px;
-    margin-right: 2rem;
+    margin-right: 20px;
     background: #fa8dc3;
 }
 

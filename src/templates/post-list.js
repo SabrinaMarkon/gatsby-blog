@@ -34,7 +34,7 @@ const PostList = (props) => {
         <Layout>
             <SEO title="Home" keywords={[`gatsby`, `javascript`, `react`, `web development`, `blog`, `graphql`]} />
             <div className="index-main">
-                <div className="sidebar px-4 py-2">
+                <div className="sidebar px-3 py-2">
                     <Sidebar />
                 </div>
                 <div className="post-list-main">
