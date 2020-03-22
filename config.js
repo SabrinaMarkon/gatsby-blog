@@ -3,11 +3,11 @@
 module.exports = {
   url: "https://developer-diary.netlify.com",
   title: "Sabrina Markon",
-  tagline: "I love coding and want to share my journey with you!",
+  tagline: "I love coding and sharing my knowledge with you!",
   copyright: "© 2020 Sabrina Markon, All rights reserved",
   author: {
     name: "Sabrina Markon",
-    bio: "Full stack web developer",
+    bio: "Full stack Developer",
     contacts: {
       linkedin: "https://www.linkedin.com/in/sabrinamarkon",
       github: "https://github.com/SabrinaMarkon",
