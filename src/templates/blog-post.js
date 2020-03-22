@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { DiscussionEmbed } from 'disqus-react';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "./blog-post.css"
@@ -15,6 +16,12 @@ const BlogPost = (props) => {
   const siteUrl = props.data.site.siteMetadata.url
   const url = `${siteUrl}${props.pageContext.slug}`;
   const tags = post.frontmatter.tags
+
+  const disqusShortname = "sabrina-markon-blog";
+  const disqusConfig = {
+    identifier: post.id,
+    title: post.frontmatter.title,
+  };
 
   const getTechTags = (tags) => {
     const techTags = []
@@ -47,6 +54,7 @@ const BlogPost = (props) => {
             <small><i>Published on </i> {post.frontmatter.date}</small>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <CustomShareBlock title={post.frontmatter.title} siteName={siteName} url={url} />
+            <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
           </div>
         </div>
       </div>
