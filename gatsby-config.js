@@ -3,11 +3,12 @@
 const siteConfig = require("./config")
 
 module.exports = {
+  pathPrefix: `/blog`,
   siteMetadata: {
     url: siteConfig.url,
     title: siteConfig.title,
     tagline: siteConfig.tagline,
-    description: `A blog template for web developers that's ready to go out of the box. Feel free to modify it to your liking.`,
+    description: `Sabrina Markon's Coding Blog`,
     author: siteConfig.author.name,
     contacts: {
       linkedin: siteConfig.author.contacts.linkedin,
