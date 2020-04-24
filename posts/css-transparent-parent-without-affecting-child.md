@@ -4,8 +4,9 @@ tags: ["css", "html"]
 published: true
 date: '2020-04-22'
 ---
+
 I have always loved the effects you can achieve with semi-transparency, especially in dark-themed designs. 
-In the old days, I primarily used Photoshop to create semi-transparent images for my layouts which at the time, also heavily leaned on the &lt;table&gt; tag! (I hear you cringing!).
+So, in the old days, I primarily used Photoshop to create semi-transparent images for my layouts which at the time, also heavily leaned on the &lt;table&gt; tag! (I hear you cringing!).
 
 Now, lucky us! We have the magic of modern CSS! Yay!
 

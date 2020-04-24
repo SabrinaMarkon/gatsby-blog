@@ -24,7 +24,7 @@ const AboutPage = (props) => {
         <Layout>
             <SEO title="About" />
             <div className="post-page-main">
-                <div className="sidebar px-3 py-2">
+                <div className="sidebar px-3">
                     <Sidebar />
                 </div>
 
