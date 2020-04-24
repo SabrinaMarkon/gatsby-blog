@@ -3,7 +3,9 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  padding: 2rem;
+  padding: 0 2rem 0 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .side-social-links {
