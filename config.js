@@ -1,9 +1,9 @@
 "use strict"
 
 module.exports = {
-  url: "https://developer-diary.netlify.com",
+  url: "https://sabrinamarkon.com/blog",
   title: "Sabrina Markon",
-  tagline: "I love coding and sharing my knowledge with you!",
+  tagline: "I am an experienced and curious web developer who enjoys being challenged.",
   copyright: "© 2020 Sabrina Markon, All rights reserved",
   author: {
     name: "Sabrina Markon",
