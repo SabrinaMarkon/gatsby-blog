@@ -37,7 +37,12 @@
     "react-icons": "^3.7.0"
   },
   "devDependencies": {
-    "prettier": "^1.17.1"
+    "babel-jest": "^25.5.0",
+    "babel-preset-gatsby": "^0.4.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.5.0",
+    "prettier": "^1.17.1",
+    "react-test-renderer": "^16.13.1"
   },
   "keywords": [
     "gatsby"
