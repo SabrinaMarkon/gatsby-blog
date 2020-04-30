@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
-
 import MobileSocialLinks from "./MobileSocialLinks"
 import MobilePageLinks from "./MobilePageLinks"
 import SocialLinks from "./SocialLinks"
