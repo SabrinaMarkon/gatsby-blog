@@ -12,34 +12,34 @@ import "../layout.css"
 const MobileSocialLinks = ({ contacts }) => {
     return (
         <div className="bottom-bar py-1">
-            <a className=" text-primary"
+            <a className="text-secondary p-2"
                 href={contacts.linkedin}>
                 <span title="Linked In">
-                    <FaLinkedin size={26} style={{ color: "primary" }} />
+                    <FaLinkedin size={26} style={{ color: "secondary" }} />
                 </span>
             </a>
-            <a className="text-light"
+            <a className="text-secondary p-2"
                 href={contacts.github}>
                 <span title="GitHub">
-                    <FaGithubSquare size={26} style={{ color: "light" }} />
+                    <FaGithubSquare size={26} style={{ color: "secondary" }} />
                 </span>
             </a>
-            <a className="text-warning"
+            <a className="text-secondary p-2"
                 href={contacts.stackoverflow}>
                 <span title="Stack Overflow">
-                    <FaStackOverflow size={26} style={{ color: "warning" }} />
+                    <FaStackOverflow size={26} style={{ color: "secondary" }} />
                 </span>
             </a>
-            <a className="text-success"
+            <a className="text-secondary p-2"
                 href={contacts.freecodecamp}>
                 <span title="freeCodeCamp">
-                    <FaFreeCodeCamp size={26} style={{ color: "success" }} />
+                    <FaFreeCodeCamp size={26} style={{ color: "secondary" }} />
                 </span>
             </a>
-            <a className="text-info"
+            <a className="text-secondary p-2"
                 href={contacts.twitter}>
                 <span title="Twitter">
-                    <FaTwitterSquare size={26} style={{ color: "info" }} />
+                    <FaTwitterSquare size={26} style={{ color: "secondary" }} />
                 </span>
             </a>
         </div>
