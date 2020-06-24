@@ -20,7 +20,7 @@ The useState hook is passed an optional initialState parameter, and is assigned 
 <br /><br />
 So, in our program, if want to increment count whenever we click a button, the onClick function would call setCount(newCount) where newCount = ++count;
 Here is an example of a functional component using useState to keep track of a counter:
-<br /><br />
+<br />
 
 ```
 /* When the "Click Me" button is clicked, the onClick event fires
@@ -43,9 +43,9 @@ const Counter = () => {
 
 export default Counter;
 ```
-<br /><br />
+<br />
 So for each stateful variable your program needs, the **generalized** format to set up the useState hook is:
-<br /><br />
+<br />
 ```
 const [state, setState] = useState(initialState);
 ```

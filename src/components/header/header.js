@@ -33,9 +33,9 @@ const Header = ({ siteTitle, tagline, author, contacts }) => {
         </h1>
         <SocialLinks contacts={contacts} />
       </div>
+      <MobileBio author={author} />
       <MobileSocialLinks contacts={contacts} />
       <MobilePageLinks />
-      <MobileBio author={author} />
     </header>
   )
 }
