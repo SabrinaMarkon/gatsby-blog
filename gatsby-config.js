@@ -3,7 +3,7 @@
 const siteConfig = require("./config")
 
 module.exports = {
-  pathPrefix: `/blog`,
+  pathPrefix: `/`,
   siteMetadata: {
     url: siteConfig.url,
     title: siteConfig.title,
