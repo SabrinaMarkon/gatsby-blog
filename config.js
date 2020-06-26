@@ -1,9 +1,9 @@
 "use strict"
 
 module.exports = {
-  url: "https://sabrinamarkon.com/blog",
+  url: "https://blog.sabrinamarkon.com",
   title: "Sabrina Markon",
-  tagline: `I am an experienced and curious web developer who enjoys being challenged. 
+  tagline: `I am an experienced web developer who enjoys being challenged and solving problems.
   I've made this blog to share my coding journey and learning with you in hopes that it helps others too!`,
   copyright: "© 2020 Sabrina Markon, All rights reserved",
   author: {
