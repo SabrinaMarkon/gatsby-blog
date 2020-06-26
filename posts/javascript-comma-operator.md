@@ -12,14 +12,14 @@ Importantly, the comma operator should not be mistaken for the commas in arrays,
 
 ### Example: ###
 At first, the below code with its comma operator might look strange to someone who has never encountered it.
-<br /><br />
+#  
 
 ```
 let x = 1;
 let y = (x++, x);
 console.log(y); // outputs: 2
 ```
-<br />
+#  
 From left to right, the comma operator will evaluate the operands, then return the value of the last operand after the comma.
 
 First, it will compute x++ and get 2. Then, it will return the value of x because x appears at the end, after the comma. 
@@ -28,14 +28,14 @@ Since x is returned as 2, that value is assigned to y, and console.log(y) prints
 Mostly is just a neat, short way of evaluating an expression, then returning a value in one line to assign to a variable. 
 
 But why can't we just do it without the comma operator? For example:
-<br /><br />
+#  
 
 ```
 let x = 1;
 let y = x++;
 console.log(y);
 ```
-<br />
+#  
 Well, if you try that, you'll see that the output is not 2, but 1. 
 console.log(y) here says that y is equal to 1.
 y = 1 only because the value of x is returned and assigned to y *before* x is incremented!
@@ -53,7 +53,7 @@ Note that this does **not** improve the performance of the loop. It's Big Oh is 
 ### Example: ###
 
 If we wanted to get the diagonal items in a two-dimensional array (matrix):
-<br /><br />
+#  
 
 ```
 for (let i = 0, j = 9; i <= 9; i++, j--) {
@@ -61,10 +61,10 @@ for (let i = 0, j = 9; i <= 9; i++, j--) {
 }
 ```
 
-<br />
+#  
 Finally, be aware of the comma operator's behavior in assignments. 
 For instance, in the code below, the value of the left-most expression, a = b = 3, will evaluate to 3, however the c = 4 right-most expression after the comma operator still evaluates and returns 4.
-<br /><br />
+#  
 
 ```
 let a, b, c;
@@ -72,15 +72,15 @@ a = b = 3, c = 4; // 4
 console.log(a); // 3
 ```
 
-<br />
+#  
 On the other hand, below the assignment expression is enclosed in parenthesis. Both y = 5 and z = 6 are evaluated, but only 6 is assigned to x, because the z = 6 on the right-most side of the comma is the one returned.
-<br /><br />
+#  
 
 ```
 let x, y, z;
 x = (y = 5, z = 6); // 6
 ```
 
-<br />
+#  
 Have you observed any interesting quirks of the comma operator, or have any cool examples of its usage? Comment below!
 

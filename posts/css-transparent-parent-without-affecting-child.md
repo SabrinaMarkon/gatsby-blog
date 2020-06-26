@@ -19,14 +19,14 @@ A problem with using the CSS opacity setting, though, is that when we change the
 So, say we have a nice semi-transparent &lt;div&gt; that allows the background to show through, but the &lt;div&gt; has a child &lt;span&gt;. If we use opacity: 0.7 on the parent &lt;div&gt;, for example, it would also cause the &lt;span&gt; to become semi-transparent. Often, this is undesirable, especially for text that we want to look bright and clear.
 
 One approach that often helps me out here is to leave out the opacity property and instead use the rgba alpha value for the parent &lt;div&gt; background-color, with the red, green, and blue values set to 0:
-
+#  
 
 ```
 .parentDiv {
     background-color: rgba(0,0,0,0.7); 
 }
 ```
-
+#  
 I know this doesn't apply to [ALL cases](https://stackoverflow.com/questions/5770341/i-do-not-want-to-inherit-the-child-opacity-from-the-parent-in-css), however it works frequently when we only want the parent to be semi-transparent.
 
 Let me know any tricks you have learned to use with CSS transparency!

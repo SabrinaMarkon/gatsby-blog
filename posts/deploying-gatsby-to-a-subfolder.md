@@ -15,6 +15,7 @@ It turned out that once I ran the build, however, Gatsby defaults to the assumpt
 No worries though!
 
 If this happens to you, it is only a few super short, easy steps to fix!
+#  
 
 1. Open your gatsby-config.js file and add the following in the module.exports section:
 
@@ -32,9 +33,11 @@ If this happens to you, it is only a few super short, easy steps to fix!
 
 1. According to the [Gatsby Documentation](https://www.gatsbyjs.org/docs/path-prefix Gatsby Documentation), you can now serve your Gatsby site with the --prefix-paths flag as well, like:
 
+#  
    ```
    gatsby serve --prefix-paths
    ```
+#  
 
    My domain lives on my dedicated LAMP server with cPanel, so because the Apache web server is already available to the directory, I don't use the serve command. Rather, I simply upload the contents of Gatsby's /public folder directly into my /blog subfolder for my domain. The serve command with --prefix-paths would normally be required, but I want to make sure that people who want to host their site on cPanel know how easy it is for them to deploy Gatsby as well!
 
