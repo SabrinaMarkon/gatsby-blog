@@ -2,9 +2,15 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 300px 1fr;
+    padding: 2em;
+    padding-top: 1em;
 }
 
 .heading {
+  font-family: "Raleway";
+}
+
+li {
   font-family: "Raleway";
 }
 
