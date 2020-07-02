@@ -77,17 +77,17 @@
         23.00,22.00 23.00,14.00 23.00,14.00
         23.00,14.00 12.00,14.00 12.00,14.00 Z"></path></svg></div></button></a></div></div></div><div class="text-center madewithlove"><hr/><p>Made with<!-- --> <span class="madewithlove__heart" aria-hidden="true">❤</span> <!-- -->by<!-- --> <a href="http://sabrinamarkon.com" target="_blank" rel="noopener noreferrer" class="text-info madewithlove__name">Sabrina Markon</a></p></div></div></div><div class="post-main px-2"><div class="mt-3"><h2 class="heading">React Hooks: useContext()</h2><div class="d-block"><div class="d-inline-block p-1"><a href="/tags/javascript/"><button class="tech-tag text-white"><p class="d-inline">JavaScript<!-- --> </p><div class="d-inline" style="font-size:20px;color:yellow"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" style="fill:yellow"><title>JavaScript</title><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"></path></svg></div></button></a></div><div class="d-inline-block p-1"><a href="/tags/react/"><button class="tech-tag text-white"><p class="d-inline">React<!-- --> </p><div class="d-inline" style="font-size:20px;color:deepskyblue"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" style="fill:deepskyblue"><title>React</title><path d="M12 9.861A2.139 2.139 0 1 0 12 14.139 2.139 2.139 0 1 0 12 9.861zM6.008 16.255l-.472-.12C2.018 15.246 0 13.737 0 11.996s2.018-3.25 5.536-4.139l.472-.119.133.468a23.53 23.53 0 0 0 1.363 3.578l.101.213-.101.213a23.307 23.307 0 0 0-1.363 3.578l-.133.467zM5.317 8.95c-2.674.751-4.315 1.9-4.315 3.046 0 1.145 1.641 2.294 4.315 3.046a24.95 24.95 0 0 1 1.182-3.046A24.752 24.752 0 0 1 5.317 8.95zM17.992 16.255l-.133-.469a23.357 23.357 0 0 0-1.364-3.577l-.101-.213.101-.213a23.42 23.42 0 0 0 1.364-3.578l.133-.468.473.119c3.517.889 5.535 2.398 5.535 4.14s-2.018 3.25-5.535 4.139l-.473.12zm-.491-4.259c.48 1.039.877 2.06 1.182 3.046 2.675-.752 4.315-1.901 4.315-3.046 0-1.146-1.641-2.294-4.315-3.046a24.788 24.788 0 0 1-1.182 3.046zM5.31 8.945l-.133-.467C4.188 4.992 4.488 2.494 6 1.622c1.483-.856 3.864.155 6.359 2.716l.34.349-.34.349a23.552 23.552 0 0 0-2.422 2.967l-.135.193-.235.02a23.657 23.657 0 0 0-3.785.61l-.472.119zm1.896-6.63c-.268 0-.505.058-.705.173-.994.573-1.17 2.565-.485 5.253a25.122 25.122 0 0 1 3.233-.501 24.847 24.847 0 0 1 2.052-2.544c-1.56-1.519-3.037-2.381-4.095-2.381zM16.795 22.677c-.001 0-.001 0 0 0-1.425 0-3.255-1.073-5.154-3.023l-.34-.349.34-.349a23.53 23.53 0 0 0 2.421-2.968l.135-.193.234-.02a23.63 23.63 0 0 0 3.787-.609l.472-.119.134.468c.987 3.484.688 5.983-.824 6.854a2.38 2.38 0 0 1-1.205.308zm-4.096-3.381c1.56 1.519 3.037 2.381 4.095 2.381h.001c.267 0 .505-.058.704-.173.994-.573 1.171-2.566.485-5.254a25.02 25.02 0 0 1-3.234.501 24.674 24.674 0 0 1-2.051 2.545zM18.69 8.945l-.472-.119a23.479 23.479 0 0 0-3.787-.61l-.234-.02-.135-.193a23.414 23.414 0 0 0-2.421-2.967l-.34-.349.34-.349C14.135 1.778 16.515.767 18 1.622c1.512.872 1.812 3.37.824 6.855l-.134.468zM14.75 7.24c1.142.104 2.227.273 3.234.501.686-2.688.509-4.68-.485-5.253-.988-.571-2.845.304-4.8 2.208A24.849 24.849 0 0 1 14.75 7.24zM7.206 22.677A2.38 2.38 0 0 1 6 22.369c-1.512-.871-1.812-3.369-.823-6.854l.132-.468.472.119c1.155.291 2.429.496 3.785.609l.235.02.134.193a23.596 23.596 0 0 0 2.422 2.968l.34.349-.34.349c-1.898 1.95-3.728 3.023-5.151 3.023zm-1.19-6.427c-.686 2.688-.509 4.681.485 5.254.987.563 2.843-.305 4.8-2.208a24.998 24.998 0 0 1-2.052-2.545 24.976 24.976 0 0 1-3.233-.501zM12 16.878c-.823 0-1.669-.036-2.516-.106l-.235-.02-.135-.193a30.388 30.388 0 0 1-1.35-2.122 30.354 30.354 0 0 1-1.166-2.228l-.1-.213.1-.213a30.3 30.3 0 0 1 1.166-2.228c.414-.716.869-1.43 1.35-2.122l.135-.193.235-.02a29.785 29.785 0 0 1 5.033 0l.234.02.134.193a30.006 30.006 0 0 1 2.517 4.35l.101.213-.101.213a29.6 29.6 0 0 1-2.517 4.35l-.134.193-.234.02c-.847.07-1.694.106-2.517.106zm-2.197-1.084c1.48.111 2.914.111 4.395 0a29.006 29.006 0 0 0 2.196-3.798 28.585 28.585 0 0 0-2.197-3.798 29.031 29.031 0 0 0-4.394 0 28.477 28.477 0 0 0-2.197 3.798 29.114 29.114 0 0 0 2.197 3.798z"></path></svg></div></button></a></div></div><br/><small><i>Published on </i> <!-- -->July 01, 2020</small><div><p>The React <strong>useContext</strong> hook is used in combination with the React Context API.</p>
 <h1></h1>
-<p>Without using Context in React, props that need to be shared between components are passed as attributes from parent to child to child's child, etc. In addition, functions that update the same values are also passed to child components by the parent as attributes that the child component can use to pass updated props back to the parent.</p>
+<p>Without using Context in React, props that need to be shared between components are passed as attributes from parent to child to child's child, etc. In addition, functions that update those same props are also passed to child components by the parent as attributes that the child component can use to pass updated props back to the parent.</p>
 <h1></h1>
-<p>As you might guess, if the React tree has many levels of parent and child components, this process could become more error prone and unwieldy. It can be hard to keep track of which props are available to a given component, for instance, and code repetition, such as of attributes and functions that pass to the next parent up the tree, makes code less readable. Moreover, some of the components in the process might not even need access to the prop but have to handle it anyway.</p>
+<p>As you might guess, if the React tree has many levels of parent and child components, this process could become more error prone and unwieldy. It can be hard to keep track of which props are available to a given component, for instance. As well, code repetition of attributes and functions that pass  up the tree, through potentially many levels of parent components, makes code less readable. Some of the components in the process might not even need access to the prop but have to handle it anyway.</p>
 <h1></h1>
-<p>So, instead of "prop drilling" through multiple levels in a React component tree, we can use the <strong><em>Context API</em></strong> and the useContext hook to allow prop values to be shared easily between components, without having to explicitly pass them as variables through every level. The steps are actually quite straightforward!</p>
+<p>So, instead of "prop drilling" through multiple levels in a React component tree, we can use the <strong>Context API and the useContext hook</strong> to allow prop values to be shared easily between components, without having to explicitly pass them as variables through every level. The steps are actually quite straightforward!</p>
 <h1></h1>
 <ol>
 <li>
-<p>Create a React Context in the highest level of the app that needs access to the values:</p>
-<h1></h1>
+<p>Create a React Context in the highest level of the app that needs access to the values. Adding it to the index.js or App.js would give the entire app access, for instance: </p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">const myContext = React.createContext();</code></pre></div>
+<h1></h1>
 <h1></h1>
 </li>
 <li>
@@ -95,51 +95,60 @@
 <h1></h1>
 </li>
 <li>
-<p>In the render section, enclose the app's children with myContext.Provider, and add a value attribute where we pass our state variables as an object:</p>
+<p>In the render section, enclose the app's children with myContext.Provider, and add a <strong><em>value</em></strong> attribute where we pass our state variables and the functions to update them as an object:</p>
 <h1></h1>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">export default function myApp() {
 const [count, setCount] = useState(1);
-const [greeting, setGreeting] = useState(&#39;Hai thar!&#39;);</code></pre></div>
+const [greeting, setGreeting] = useState(&#39;Hai thar!&#39;);
+
+return (
+    &lt;myContext.Provider value={{
+    count,
+    greeting,
+    setCount,
+    setGreeting
+    }}&gt;
+    &lt;div&gt;
+        &lt;ChildComponent /&gt;
+    &lt;/div&gt;
+    &lt;/myContext.Provider&gt;
+);
+}</code></pre></div>
+<h1></h1>
+<h1></h1>
+</li>
+<li>
+<p>To access the state in the myContext.Provider value from any child component that needs it, import React's useContext hook and pass the Context, myContext as a parameter. Easy Peasy!</p>
+<h1></h1>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">import React, { useContext } from &#39;react&#39;;
+
+export default function ChildComponent() {
+const value = useContext(myContext);
+return (
+    &lt;div&gt;The value of the greeting state variable: {value.greeting}&lt;/div&gt;
+);
+}</code></pre></div>
+<h1></h1>
+<h1></h1>
+</li>
+<li>
+<p>If we want to update state from the ChildComponent, the setGreeting and setCount methods are also available in the Context. Cool!</p>
+<h1></h1>
 </li>
 </ol>
-<p>  return (
-&#x3C;myContext.Provider value={{
-count,
-greeting,
-setCount,
-setGreeting
-}}>
-<div>
-<ChildComponent />
-</div>
-&#x3C;/myContext.Provider>
-);
-}</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">#                
-1. To access the state in the myContext.Provider value from any child component that needs it, import React&#39;s useContext hook and pass the Context, myContext as a parameter.
-#  </code></pre></div>
-<p>import React, { useContext } from 'react';</p>
-<p>export default function ChildComponent() {
-const value = useContext(myContext);
-return (
-<div>The value of the greeting state variable: {value.greeting}</div>
-);
-}</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">#               
-1. If we want to update state from the ChildComponent, the setGreeting and setCount methods are also available in the Context. Cool!
-#  </code></pre></div>
-<p>import React, { useContext } from 'react';</p>
-<p>export default function ChildComponent() {
-const value = useContext(myContext);
-return (
-&#x3C;>
-<div>The value of the greeting state variable: {value.greeting}</div>
-<label>Update Greeting: </label>
-&#x3C;input type="text" name="greeting" onChange={e => value.setGreeting(e.target.value)} value={greeting} />
-&#x3C;/>
-);
-}</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">#          
-Importantly, when the values provided by myContext.Provider change, the value will also be updated in all child components that use those values, triggering them to re-render, and the re-renders are recursive. That is, if a child component that uses useContext re-renders, all its children that use the useContext (but not the children that don&#39;t) will also re-render! Hence, the app could take a performance hit. To remedy this, we can use React memo or PureComponent on the children so they don&#39;t re-render if they do not need to.
-#  
-The React useContext hook also allows us to create multiple Contexts, and we can then nest child components in the ones they need access to.</code></pre></div></div><div class="mt-4"><div class="css-1qq1qhc"><div class=" rcs-buttons"><button class="css-6rti61 rcs-button" aria-label="Share on Twitter"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></button><button class="css-1357ed0 rcs-button" aria-label="Share on Facebook"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg></button><button class="css-ghtq4v rcs-button" aria-label="Share on Linkedin"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></button><button class="css-6qrx4d rcs-button" aria-label="Share on Email"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg></button></div></div><p class="text-center"><i>If you like it, share it!</i></p></div><div shortname="sabrina-markon-blog" config="[object Object]" id="disqus_thread"></div></div></div></div></main></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/react-hooks-usecontext/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-3321849e969b8299befd.js"],"component---src-pages-404-js":["/component---src-pages-404-js-755d19313b6360790c02.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b41358c777afa24aba4a.js"],"component---src-pages-archive-js":["/component---src-pages-archive-js-1273839c92535391e7f0.js"],"component---src-pages-index-js":["/component---src-pages-index-js-98c37ed33bbd2a6b0a9e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-adf1380c57e4fbc6d03f.js"],"component---src-templates-post-list-js":["/component---src-templates-post-list-js-833682a28c43f8d3f106.js"],"component---src-templates-tag-js":["/component---src-templates-tag-js-7366f8632bcc635cece4.js"]};/*]]>*/</script><script src="/component---src-templates-blog-post-js-adf1380c57e4fbc6d03f.js" async=""></script><script src="/4c9cd4c975972a2c5370d674b1200089eec6b4d0-0d29babadff7fe330aed.js" async=""></script><script src="/commons-45e41799a746c1613896.js" async=""></script><script src="/1bfc9850-f43ff16c9f5c56ee22e0.js" async=""></script><script src="/styles-89fd2ae28bdf06750a71.js" async=""></script><script src="/app-3321849e969b8299befd.js" async=""></script><script src="/532a2f07-cc3884068482c29dbcee.js" async=""></script><script src="/framework-f22f3b8b99ca8be9eba5.js" async=""></script><script src="/webpack-runtime-8ec00b2161021a42b7fc.js" async=""></script></body></html>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">  import React, { useContext } from &#39;react&#39;;
+  
+  export default function ChildComponent() {
+    const value = useContext(myContext);
+    return (
+      &lt;&gt;
+        &lt;div&gt;The value of the greeting state variable: {value.greeting}&lt;/div&gt;
+        &lt;label&gt;Update Greeting: &lt;/label&gt;
+        &lt;input type=&quot;text&quot; name=&quot;greeting&quot; onChange={e =&gt; value.setGreeting(e.target.value)} value={greeting} /&gt;
+      &lt;/&gt;
+    );
+  }</code></pre></div>
+<h1></h1>
+<h1></h1>
+<p>Importantly, when the values provided by myContext.Provider change, the value will also be updated in <strong>all child components that use those values</strong>, triggering them to re-render <strong>recursively</strong>. That is, if a child component that uses useContext re-renders, <strong>all its children that use the useContext hook</strong> (but not the children that <strong>don't</strong>!) will also re-render! Becasue of this, the app could take a performance hit, but we can remedy this by using React memo or PureComponent on child components so they don't re-render if they do not need to.</p>
+<p>The React useContext hook also allows us to create multiple Contexts, and we can then nest child components in the ones they need access to.</p></div><div class="mt-4"><div class="css-1qq1qhc"><div class=" rcs-buttons"><button class="css-6rti61 rcs-button" aria-label="Share on Twitter"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></button><button class="css-1357ed0 rcs-button" aria-label="Share on Facebook"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg></button><button class="css-ghtq4v rcs-button" aria-label="Share on Linkedin"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></button><button class="css-6qrx4d rcs-button" aria-label="Share on Email"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg></button></div></div><p class="text-center"><i>If you like it, share it!</i></p></div><div shortname="sabrina-markon-blog" config="[object Object]" id="disqus_thread"></div></div></div></div></main></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/react-hooks-usecontext/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-3321849e969b8299befd.js"],"component---src-pages-404-js":["/component---src-pages-404-js-755d19313b6360790c02.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b41358c777afa24aba4a.js"],"component---src-pages-archive-js":["/component---src-pages-archive-js-1273839c92535391e7f0.js"],"component---src-pages-index-js":["/component---src-pages-index-js-98c37ed33bbd2a6b0a9e.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-adf1380c57e4fbc6d03f.js"],"component---src-templates-post-list-js":["/component---src-templates-post-list-js-833682a28c43f8d3f106.js"],"component---src-templates-tag-js":["/component---src-templates-tag-js-7366f8632bcc635cece4.js"]};/*]]>*/</script><script src="/component---src-templates-blog-post-js-adf1380c57e4fbc6d03f.js" async=""></script><script src="/4c9cd4c975972a2c5370d674b1200089eec6b4d0-0d29babadff7fe330aed.js" async=""></script><script src="/commons-45e41799a746c1613896.js" async=""></script><script src="/1bfc9850-f43ff16c9f5c56ee22e0.js" async=""></script><script src="/styles-89fd2ae28bdf06750a71.js" async=""></script><script src="/app-3321849e969b8299befd.js" async=""></script><script src="/532a2f07-cc3884068482c29dbcee.js" async=""></script><script src="/framework-f22f3b8b99ca8be9eba5.js" async=""></script><script src="/webpack-runtime-8ec00b2161021a42b7fc.js" async=""></script></body></html>
