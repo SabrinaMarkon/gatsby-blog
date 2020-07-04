@@ -18,6 +18,22 @@ li {
     width: 300px;
 }
 
+.pagenum {
+  background: #393939;
+  border-color: transparent;
+  font-family: "Raleway";
+  padding: 0.4375rem;
+  text-decoration: 'none';
+}
+
+.pagenum-link {
+  color: #fff;
+}
+
+.pagenum-link:hover {
+  color: #fa8dc3;
+}
+
 @media only screen and (max-width: 850px) {
  .sidebar{display: none;}
  .post-page-main{

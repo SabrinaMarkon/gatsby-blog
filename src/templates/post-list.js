@@ -75,24 +75,38 @@ const PostList = (props) => {
             );
           })}
           <div className="text-center mt-4">
-            {!isFirst && (
-              <Link to={prevPage} rel="prev" style={{ textDecoration: `none` }}>
-                <span className="text-dark">← Previous Page</span>
-              </Link>
-            )}
-            {Array.from({ length: numPages }, (_, i) => (
-              <Link
-                key={`pagination-number${i + 1}`}
-                to={`/${i === 0 ? "" : i + 1}`}
-              >
-                {i + 1}
-              </Link>
-            ))}
-            {!isLast && (
-              <Link to={nextPage} rel="next" style={{ textDecoration: `none` }}>
-                <span className="text-dark ml-5">Next Page →</span>
-              </Link>
-            )}
+            <ul style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', listStyle: 'none', padding: '0'}}>
+              {!isFirst && (
+                <Link
+                  to={prevPage}
+                  rel="prev"
+                  style={{ textDecoration: `none` }}
+                >
+                  <span className="text-dark">← Previous Page</span>
+                </Link>
+              )}
+              {Array.from({ length: numPages }, (_, i) => (
+                <li style={{margin: 5}} className='pagenum'>
+                  <Link
+                    key={`pagination-number${i + 1}`}
+                    to={`/${i === 0 ? "" : i + 1}`}
+                    className="pagenum-link"
+                    // style={{color: '#ffffff'}}
+                  >
+                    {i + 1}
+                  </Link>
+                </li>
+              ))}
+              {!isLast && (
+                <Link
+                  to={nextPage}
+                  rel="next"
+                  style={{ textDecoration: `none` }}
+                >
+                  <li className="text-dark ml-5">Next Page →</li>
+                </Link>
+              )}
+            </ul>
           </div>
         </div>
       </div>
