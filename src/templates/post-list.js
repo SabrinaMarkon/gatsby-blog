@@ -74,37 +74,40 @@ const PostList = (props) => {
               </div>
             );
           })}
-          <div className="text-center mt-4">
+          <div className="text-center my-4">
             <ul style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', listStyle: 'none', padding: '0'}}>
               {!isFirst && (
-                <Link
-                  to={prevPage}
-                  rel="prev"
-                  style={{ textDecoration: `none` }}
-                >
-                  <span className="text-dark">← Previous Page</span>
-                </Link>
+                <li className='pagenum'>
+                  <Link
+                    to={prevPage}
+                    rel="prev"
+                    className="pagenum-link"
+                  >
+                    ← Previous Page
+                  </Link>
+                </li>
               )}
               {Array.from({ length: numPages }, (_, i) => (
-                <li style={{margin: 5}} className='pagenum'>
+                <li className='pagenum'>
                   <Link
                     key={`pagination-number${i + 1}`}
                     to={`/${i === 0 ? "" : i + 1}`}
                     className="pagenum-link"
-                    // style={{color: '#ffffff'}}
                   >
                     {i + 1}
                   </Link>
                 </li>
               ))}
               {!isLast && (
-                <Link
-                  to={nextPage}
-                  rel="next"
-                  style={{ textDecoration: `none` }}
-                >
-                  <li className="text-dark ml-5">Next Page →</li>
-                </Link>
+                <li className='pagenum'>
+                  <Link
+                    to={nextPage}
+                    rel="next"
+                    className="pagenum-link"
+                  >
+                    Next Page →
+                  </Link>
+                </li>
               )}
             </ul>
           </div>
