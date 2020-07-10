@@ -43,7 +43,7 @@ const BlogPost = (props) => {
           <Sidebar />
         </div>
 
-        <div className="post-main px-2">
+        <div className="post-main p-5">
           <SEO title={post.frontmatter.title} />
           <div className="mt-3">
             <h2 className="heading">{post.frontmatter.title}</h2>

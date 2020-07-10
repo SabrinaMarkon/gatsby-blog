@@ -55,7 +55,7 @@ const PostList = (props) => {
         <div className="sidebar px-3">
           <Sidebar />
         </div>
-        <div className="post-list-main">
+        <div className="post-list-main px-4">
           {posts.map((post) => {
             const tags = post.node.frontmatter.tags;
             return (
