@@ -24,8 +24,6 @@ const TechTags = (props) => {
         return category[0]
     })
 
-
-
     const getTechTags = (tags) => {
         const techTags = []
         tags.forEach((tag, i) => {
@@ -37,7 +35,6 @@ const TechTags = (props) => {
         })
         return techTags
     }
-
 
     return (
         <>
