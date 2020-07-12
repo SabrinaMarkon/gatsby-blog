@@ -10,8 +10,12 @@ Unlike useRef, however, which returns the **instance element** of the DOM node, 
 #  
 ```
 useImperativeHandle(ref, createHandle, [deps]);
+```
+#  
+#  
 The React documentation provides the below code as an example, which clearly demonstrates how useImperative allows you to change the behavior of focus() to use your own side-effects instead of the native browser focus(). Any parent component that has FancyInput below as its child, like <FancyInput ref={inputRef} /> could call FancyInput's inputRef.current.focus().
-
+#  
+```
 import React, { useRef, useImperativeHandle, forwardRef } from 'react';
 function FancyInput(props, ref) {
   const inputRef = useRef();
