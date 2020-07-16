@@ -54,7 +54,9 @@ return (
 export default Counter;                
 ```
 #  
-#             
+#    
+<!-- ![](./images/useCallback-code1.png 'useCallback React Hook Example #1')
+#   -->
 To solve the problem, we can make it so that we don't recreate functions in a re-render that do not concern the state value that was updated. That is, we can use the useCallback hook to **memoize** a function's callback so it only changes if one of its own corresponding inputs changes (Noring, n.d.).
 #  
 All we need to do is wrap each of the functions with a useCallback that has an array for its second parameter that includes any state values that should cause the function to be recreated when the component re-renders.
