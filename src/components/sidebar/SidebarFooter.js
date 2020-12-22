@@ -22,11 +22,6 @@ const Footer = () => {
         >
           Sabrina Markon
         </a>
-        {/* <br />
-      Built with{" "}
-      <a className="text-info" href="https://www.gatsbyjs.org">
-        Gatsby!
-      </a> */}
       </p>
     </div>
   );

@@ -3,12 +3,11 @@
 module.exports = {
   url: "https://blog.sabrinamarkon.com",
   title: "Sabrina Markon",
-  tagline: `I am an experienced web developer who enjoys being challenged and solving problems.
-  I've made this blog to share my coding journey and learning with you in hopes that it helps others too!`,
+  tagline: `I am a software developer who enjoys being challenged and solving problems, while sharing what I am learning with others!`,
   copyright: "© 2020 Sabrina Markon, All rights reserved",
   author: {
     name: "Sabrina Markon",
-    bio: "Full stack Developer",
+    bio: "Full stack JavaScript & PHP Developer",
     contacts: {
       linkedin: "https://www.linkedin.com/in/sabrinamarkon",
       github: "https://github.com/SabrinaMarkon",

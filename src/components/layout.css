@@ -1,7 +1,7 @@
 html {
   font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 120%;
+  -webkit-text-size-adjust: 120%;
 }
 body {
   background: #F8F8FF;
@@ -63,7 +63,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  font-size: 2.2em;
   margin: 0.67em 0;
 }
 mark {
@@ -71,7 +71,7 @@ mark {
   color: #000;
 }
 small {
-  font-size: 80%;
+  font-size: 100%;
 }
 sub,
 sup {
