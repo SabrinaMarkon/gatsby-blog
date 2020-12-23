@@ -28,7 +28,7 @@ Day 9: [Sum Odd Fibonacci Numbers](https://scrimba.com/scrim/co57b4f83ab4fa07d59
 
 Day 10: [Adjacent Elements Product](https://scrimba.com/scrim/coa2d414984714ab7f4ceac68)
 
-<span style="color:red">Day 11: [Avoid Obstacles]()</span>
+Day 11: [Avoid Obstacles](https://scrimba.com/scrim/co869470a94ad23b36eb3f532)
 
 Day 12: [Valid Time](https://scrimba.com/scrim/co1c54537a9e4e956c4d7bd34)
 
