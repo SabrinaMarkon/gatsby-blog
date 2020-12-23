@@ -32,15 +32,15 @@ Day 10: [Adjacent Elements Product](https://scrimba.com/scrim/coa2d414984714ab7f
 
 Day 12: [Valid Time](https://scrimba.com/scrim/co1c54537a9e4e956c4d7bd34)
 
-<span style="color:red">Day 13: [Extract Each Kth]()</span>
+Day 13: [Extract Each Kth](https://scrimba.com/scrim/co9d74735a965a07a8973c826)
 
-<span style="color:red">Day 14: [Maximal Adjacent Difference]()</span>
+Day 14: [Maximal Adjacent Difference](https://scrimba.com/scrim/cocce4951a50aa507652295d6)
 
 <span style="color:red">Day 15: [JavaScript Carousel]()</span>
 
-<span style="color:red">Day 16: [Insert Dashes]()</span>
+Day 16: [Insert Dashes](https://scrimba.com/scrim/co6554560bdacdc14b32654ef)
 
-<span style="color:red">Day 17: [Different Symbols Naive]()</span>
+Day 17: [Different Symbols Naive](https://scrimba.com/scrim/co05b4f3c9866c3dde8dd6ab3)
 
 Day 18: [Array Previous Less](https://scrimba.com/scrim/co70a4b328cee21740e0a6d70)
 
@@ -50,7 +50,7 @@ Day 20: [Domain Type](https://scrimba.com/scrim/coe684c7b99f5da1dcfbd181a)
 
 Day 21: [Sum of Two](https://scrimba.com/scrim/co13c4fea9b84008758ce4a2e)
 
-<span style="color:red">Day 22: []()</span>
+<span style="color:red">Day 22: [Extract Matrix Column](https://scrimba.com/scrim/co6a5470580745d546581710d)</span>
 
 <span style="color:red">Day 23: []()</span>
 
