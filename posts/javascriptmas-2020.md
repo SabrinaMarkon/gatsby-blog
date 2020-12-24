@@ -22,7 +22,7 @@ Day 6: [Sort By Length](https://scrimba.com/scrim/co3c4457aa72e9d3695cffb40)
 
 Day 7: [Count Vowel Consonant](https://scrimba.com/scrim/co8f3422aa0a3e75e277dd24e)
 
-<span style="color:red">Day 8: [Rolling Dice]()</span>
+Day 8: [Rolling Dice](https://scrimba.com/scrim/co04a40338309dac8ef129c4c)
 
 Day 9: [Sum Odd Fibonacci Numbers](https://scrimba.com/scrim/co57b4f83ab4fa07d59181ada)
 
@@ -50,9 +50,9 @@ Day 20: [Domain Type](https://scrimba.com/scrim/coe684c7b99f5da1dcfbd181a)
 
 Day 21: [Sum of Two](https://scrimba.com/scrim/co13c4fea9b84008758ce4a2e)
 
-<span style="color:red">Day 22: [Extract Matrix Column](https://scrimba.com/scrim/co6a5470580745d546581710d)</span>
+Day 22: [Extract Matrix Column](https://scrimba.com/scrim/co6a5470580745d546581710d)
 
-<span style="color:red">Day 23: []()</span>
+Day 23: [Social Media Input](https://scrimba.com/scrim/cob2441bdbce7b88f37b2fa34)
 
 <span style="color:red">Day 24: []()</span>
 
