@@ -36,7 +36,7 @@ Day 13: [Extract Each Kth](https://scrimba.com/scrim/co9d74735a965a07a8973c826)
 
 Day 14: [Maximal Adjacent Difference](https://scrimba.com/scrim/cocce4951a50aa507652295d6)
 
-<span style="color:red">Day 15: [JavaScript Carousel]()</span>
+Day 15: [JavaScript Carousel](https://scrimba.com/scrim/co1604688b3c71b3ebfbf4cb3)
 
 Day 16: [Insert Dashes](https://scrimba.com/scrim/co6554560bdacdc14b32654ef)
 
@@ -54,5 +54,5 @@ Day 22: [Extract Matrix Column](https://scrimba.com/scrim/co6a5470580745d5465817
 
 Day 23: [Social Media Input](https://scrimba.com/scrim/cob2441bdbce7b88f37b2fa34)
 
-<span style="color:red">Day 24: []()</span>
+Day 24: [Test Your Agility](https://scrimba.com/scrim/co9d543eb93e2fbdc5e22d6ed)
 
