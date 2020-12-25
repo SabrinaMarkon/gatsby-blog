@@ -54,5 +54,5 @@ Day 22: [Extract Matrix Column](https://scrimba.com/scrim/co6a5470580745d5465817
 
 Day 23: [Social Media Input](https://scrimba.com/scrim/cob2441bdbce7b88f37b2fa34)
 
-Day 24: [Test Your Agility](https://scrimba.com/scrim/co9d543eb93e2fbdc5e22d6ed)
+Day 24: [Test Your Agility](https://scrimba.com/scrim/co64d4a48a8a05df1b615c878)
 
